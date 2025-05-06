@@ -1,339 +1,426 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+      <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
     <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
+      <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <ul id="menu" class="shadow">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </header>
     <!-- End header -->
 
     <div id="lead">
-        <div class="circular--portrait"> <img src="images/Headshot.jpg" /> </div>
-        <div id="lead-content">
-            <h1>James Huang</h1>
-            <h2>Data Scientist</h2>
-            <a href="assets/Resume.pdf" class="btn-rounded-white">Download Resume</a>
+      <div id="lead-content">
+        <div class="circular--portrait">
+          <img src="images/Headshot.jpg" />
         </div>
-        <!-- End #lead-content -->
+        <h1>James Huang</h1>
+        <h2>Data Scientist</h2>
+        <a href="assets/Resume.pdf" class="btn-rounded-white"
+          >Download Resume</a
+        >
+      </div>
+      <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+      <div id="lead-overlay"></div>
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
+      <div id="lead-down">
+        <span>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+      </div>
+      <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
 
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Hi, I'm James -- a data scientist with a background in biomedical engineering and experience in both corporate startup and academic research environments. 
-                        I enjoy building end-to-end AI solutions to complex problems, especially involving disease detection and diagnoses.
-			            As an engineer, I always believe that the simplest solution is the best solution. 
-                        It's getting to the simplest solution that is the hard part, and only by diving into the data and gaining a deep understanding of it can you trim off all of the fat and create a truly useful tool. 
-                        In my 7+ years of work, I have applied this mentality to the many AI/ML projects I have undertaken.
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading">About Me</h2>
+          </div>
+          <div class="col-md-8">
+            <p>
+              Hi, I'm James -- a data scientist with a background in biomedical
+              engineering and experience in both corporate startup and academic
+              research environments. I enjoy building end-to-end AI solutions to
+              complex problems, especially involving disease detection and
+              diagnoses. As an engineer, I always believe that the simplest
+              solution is the best solution. It's getting to the simplest
+              solution that is the hard part, and only by diving into the data
+              and gaining a deep understanding of it can you trim off all of the
+              fat and create a truly useful tool. In my 7+ years of work, I have
+              applied this mentality to the many AI/ML projects I have
+              undertaken.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="Jan 2018 – Jan 2020">
-                <h3>Quantitative BioImaging Laboratory</h3>
-                <h4>Research Assistant</h4>
-                <p>
-                    In 2018, I started my journey as an undergraduate research assistant at the Quantitative BioImaging Laboratory, where I built my first neural network for predicting tumor locations in hyperspectral imaging scans of the brain. 
-                    I authored two publications, both involving augmented reality for surgical guidance.
-                </p>
-            </div>
-
-            <div data-date="Jan 2020 – July 2023">
-                <h3>Center for Imaging and Surgical Innovation</h3>
-                <h4>Research Associate</h4>
-                <p>
-                    In 2020, I joined the Center for Imaging and Surgical Innovation, a joint lab between UT Southwestern Medical Center and The University of Texas at Dallas. 
-                    There, I was drawn further into the world of deep learning and data science. 
-                    I learned how to handle large amounts of patient data efficiently and kept up to date on the latest state-of-the-art models and AI trends. 
-                    Leveraging these skills, I tackled several real-world medical problems, including motion correction of the kidneys in long-duration MRI time scans and authored three research papers.
-                </p>
-            </div>
-
-            <div data-date="Aug 2023 – Present">
-                <h3>Croptix</h3>
-                <h4>Data Scientist</h4>
-                <p>
-                    I went on to work at Croptix in 2023, an agtech startup focused on improving large-scale plant health and disease detection using novel sensor technologies and cloud/AI solutions. 
-                    Having built an end-to-end cloud pipeline for real-time, in-field nutrient deficiency detection, I presently continue to develop new models and methodologies to boost performance further while using my insights of statistics and data to present any new findings to clients and stakeholders.
-                </p>
-            </div>
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+        <div data-date="Jan 2018 – Jan 2020">
+          <h3>Quantitative BioImaging Laboratory</h3>
+          <h4>Research Assistant</h4>
+          <p>
+            In 2018, I started my journey as an undergraduate research assistant
+            at the Quantitative BioImaging Laboratory, where I built my first
+            neural network for predicting tumor locations in hyperspectral
+            imaging scans of the brain. I authored two publications, both
+            involving augmented reality for surgical guidance.
+          </p>
         </div>
+
+        <div data-date="Jan 2020 – July 2023">
+          <h3>Center for Imaging and Surgical Innovation</h3>
+          <h4>Research Associate</h4>
+          <p>
+            In 2020, I joined the Center for Imaging and Surgical Innovation, a
+            joint lab between UT Southwestern Medical Center and The University
+            of Texas at Dallas. There, I was drawn further into the world of
+            deep learning and data science. I learned how to handle large
+            amounts of patient data efficiently and kept up to date on the
+            latest state-of-the-art models and AI trends. Leveraging these
+            skills, I tackled several real-world medical problems, including
+            motion correction of the kidneys in long-duration MRI time scans and
+            authored three research papers.
+          </p>
+        </div>
+
+        <div data-date="Aug 2023 – Present">
+          <h3>Croptix</h3>
+          <h4>Data Scientist</h4>
+          <p>
+            I went on to work at Croptix in 2023, an agtech startup focused on
+            improving large-scale plant health and disease detection using novel
+            sensor technologies and cloud/AI solutions. Having built an
+            end-to-end cloud pipeline for real-time, in-field nutrient
+            deficiency detection, I presently continue to develop new models and
+            methodologies to boost performance further while using my insights
+            of statistics and data to present any new findings to clients and
+            stakeholders.
+          </p>
+        </div>
+      </div>
     </div>
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>The University of Texas at Dallas</h3>
-            <span class="education-date">Dec 2022</span>
-            <h4>Master of Science in Biomedical Engineering</h4>
-            <p>
-                GPA 3.96
-            </p>
-            <p>
-                Successfully defended my thesis, entitled "Segmentation, Registration, and Topography-based Feature Extraction for Placental MRI"
-            </p>
-        </div>
-        <!-- End .education-block -->
+      <h2 class="heading">Education</h2>
+      <div class="education-block">
+        <h3>The University of Texas at Dallas</h3>
+        <span class="education-date">Dec 2022</span>
+        <h4>Master of Science in Biomedical Engineering</h4>
+        <p>GPA 3.96</p>
+        <p>
+          Successfully defended my thesis, entitled "Segmentation, Registration,
+          and Topography-based Feature Extraction for Placental MRI"
+        </p>
+      </div>
+      <!-- End .education-block -->
 
-        <div class="education-block">
-            <h3>The University of Texas at Dallas</h3>
-            <span class="education-date">Dec 2020</span>
-            <h4>Bachelor of Science in Biomedical Engineering</h4>
-	        <p>
-                GPA 3.92
-            </p>
-        </div>
-        <!-- End .education-block -->
+      <div class="education-block">
+        <h3>The University of Texas at Dallas</h3>
+        <span class="education-date">Dec 2020</span>
+        <h4>Bachelor of Science in Biomedical Engineering</h4>
+        <p>GPA 3.92</p>
+      </div>
+      <!-- End .education-block -->
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/kidney_deform.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Motion Correction of the Kidneys in Long-Duration MRI Time Scans</h3>
-                        <p>
-                            4D MRIs of the kidneys are often acquired with long acquisition times, which can lead to motion artifacts. I built a two-stage, coarse-fine deep learning pipeline with convolutional neural networks and vision transformers to correct motion artifacts in kidney MRIs.
-                        </p>
-                        <a href="assets/kidney_registration_paper.pdf">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/placenta_segmentation.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Automatic Placenta and Uterus Segmentation of Prenatal MRI</h3>
-                        <p>
-                            I designed a 3D UNet model to segment out the placenta and uterine cavity from prenatal MRI scans with high accuracy to aid in detection of placenta accreta spectrum.
-                        </p>
-                        <a href="assets/placenta_segmentation_paper.pdf">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/placenta_topography.png"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Topography-based Feature Extraction for Placental MRI</h3>
-                        <p>
-                            Most of the relevant features of the placenta for diagnosis of placental complications lie in its location and shape. I created a novel method to extract 2D topographical features from 3D prenatal MRI scans to improve current automated diagnosis methods.
-                        </p>
-                        <a href="assets/placenta_topography_paper.pdf">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+      <h2 class="heading">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/kidney_deform.jpg" />
             </div>
-            <!-- Projects Above -->
-
-            <a id="view-more-projects" href="#">View More Projects</a>
-            <div id="more-projects" class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/hsi_ar.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Augmented Reality Visualization of Brain Tumor Segmentations with Hyperspectral Imaging</h3>
-                        <p>
-                            I trained a neural network to segment out the tumor from hyperspectral images of agar-based brain phantoms, then I built an app for the Microsoft HoloLens to visualize the boundaries in real-time.
-                        </p>
-                        <a href="assets/hsi_ar_paper.pdf">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>
+                Motion Correction of the Kidneys in Long-Duration MRI Time Scans
+              </h3>
+              <p>
+                4D MRIs of the kidneys are often acquired with long acquisition
+                times, which can lead to motion artifacts. I built a two-stage,
+                coarse-fine deep learning pipeline with convolutional neural
+                networks and vision transformers to correct motion artifacts in
+                kidney MRIs.
+              </p>
+              <a href="assets/kidney_registration_paper.pdf">View Project</a>
             </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/placenta_segmentation.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>
+                Automatic Placenta and Uterus Segmentation of Prenatal MRI
+              </h3>
+              <p>
+                I designed a 3D UNet model to segment out the placenta and
+                uterine cavity from prenatal MRI scans with high accuracy to aid
+                in detection of placenta accreta spectrum.
+              </p>
+              <a href="assets/placenta_segmentation_paper.pdf">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/placenta_topography.png" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Topography-based Feature Extraction for Placental MRI</h3>
+              <p>
+                Most of the relevant features of the placenta for diagnosis of
+                placental complications lie in its location and shape. I created
+                a novel method to extract 2D topographical features from 3D
+                prenatal MRI scans to improve current automated diagnosis
+                methods.
+              </p>
+              <a href="assets/placenta_topography_paper.pdf">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
         </div>
+        <!-- Projects Above -->
+
+        <a id="view-more-projects" href="#">View More Projects</a>
+        <div id="more-projects" class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/hsi_ar.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>
+                Augmented Reality Visualization of Brain Tumor Segmentations
+                with Hyperspectral Imaging
+              </h3>
+              <p>
+                I trained a neural network to segment out the tumor from
+                hyperspectral images of agar-based brain phantoms, then I built
+                an app for the Microsoft HoloLens to visualize the boundaries in
+                real-time.
+              </p>
+              <a href="assets/hsi_ar_paper.pdf">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+        </div>
+      </div>
     </div>
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>R</li>
-            <li>SQL</li>
-            <li>MATLAB</li>
-            <li>Java</li>
-            <li>PyTorch</li>
-            <li>Tensorflow</li>
-            <li>Scikit-learn</li>
-            <li>Power BI</li>
-            <li>Tableau</li>
-            <li>Plotly.js</li>
-            <li>Git</li>
-            <li>Databricks</li>
-            <li>Snowflake</li>
-            <li>AWS</li>
-            <li>GCP</li>
-            <li>Azure</li>
-            <li>Hadoop</li>
-            <li>Spark</li>
-            <li>Kubernetes</li>
-            <li>Docker</li>
-            <li>Weights and Biases</li>
-        </ul>
+      <h2 class="heading">Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>R</li>
+        <li>SQL</li>
+        <li>MATLAB</li>
+        <li>Java</li>
+        <li>PyTorch</li>
+        <li>Tensorflow</li>
+        <li>Scikit-learn</li>
+        <li>Power BI</li>
+        <li>Tableau</li>
+        <li>Plotly.js</li>
+        <li>Git</li>
+        <li>Databricks</li>
+        <li>Snowflake</li>
+        <li>AWS</li>
+        <li>GCP</li>
+        <li>Azure</li>
+        <li>Hadoop</li>
+        <li>Spark</li>
+        <li>Kubernetes</li>
+        <li>Docker</li>
+        <li>Weights and Biases</li>
+      </ul>
     </div>
     <!-- End #skills -->
 
     <div class="optional-section background-alt">
-        <h2 class="heading">Publications</h2>
-    
-        <div class="optional-section-block">
-            <ul>
-                <li>
-                    Huang, James, Quyen N. Do, Maysam Shahedi, Yin Xi, Matthew A. Lewis, Christina L. Herrera, David Owen et al. "Deep-learning-based automatic segmentation of the placenta and uterine cavity on prenatal MR images." In Medical Imaging 2023: Computer-Aided Diagnosis, vol. 12465, pp. 118-128. SPIE, 2023. <a href="https://doi.org/10.1117/12.2653659">Link</a>
-                </li>
-                <li>
-                    Huang, James, Maysam Shahedi, Quyen N. Do, Yin Xi, Matthew A. Lewis, Christina L. Herrera, David Owen et al. "Topography-based feature extraction of the human placenta from prenatal MR images." In Medical Imaging 2023: Image Processing, vol. 12464, pp. 473-482. SPIE, 2023. <a href="https://doi.org/10.1117/12.2653663">Link</a>
-                </li>
-                <li>
-                    Huang, James, Junyu Guo, Ivan Pedrosa, and Baowei Fei. "Deep learning-based deformable registration of dynamic contrast enhanced MR images of the kidney." In Medical Imaging 2022: Image-Guided Procedures, Robotic Interventions, and Modeling, vol. 12034, pp. 213-222. SPIE, 2022. <a href="https://doi.org/10.1117/12.2611768">Link</a>
-                </li>
-                <li>
-                    Huang, James, Martin Halicek, Maysam Shahedi, and Baowei Fei. "Augmented reality visualization of hyperspectral imaging classifications for image-guided brain tumor phantom resection." In Medical Imaging 2020: Image-Guided Procedures, Robotic Interventions, and Modeling, vol. 11315, pp. 206-215. SPIE, 2020. <a href="https://doi.org/10.1117/12.2549041">Link</a>
-                </li>
-                <li>
-                    Bettati, Patric, Majid Chalian, James Huang, James D. Dormer, Maysam Shahedi, and Baowei Fei. "Augmented reality-assisted biopsy of soft tissue lesions." In Medical Imaging 2020: Image-Guided Procedures, Robotic Interventions, and Modeling, vol. 11315, pp. 222-231. SPIE, 2020. <a href="https://doi.org/10.1117/12.2549381">Link</a>
-                </li>
-            </ul>
-        </div>
-        <!-- End .optional-section-block -->
+      <h2 class="heading">Publications</h2>
 
-        <h2 class="heading">Certifications</h2>
-    
-        <div class="optional-section-block">
-            <ul>
-                <li>
-                    Microsoft Certified: Azure Data Scientist Associate (June 2023 - Present) <a href="assets/Credentials - JamesHuang-7792 _ Microsoft Learn.pdf">View</a>
-                </li>
-            </ul>
-        </div>
-    
+      <div class="optional-section-block">
+        <ul>
+          <li>
+            Huang, James, Quyen N. Do, Maysam Shahedi, Yin Xi, Matthew A. Lewis,
+            Christina L. Herrera, David Owen et al. "Deep-learning-based
+            automatic segmentation of the placenta and uterine cavity on
+            prenatal MR images." In Medical Imaging 2023: Computer-Aided
+            Diagnosis, vol. 12465, pp. 118-128. SPIE, 2023.
+            <a href="https://doi.org/10.1117/12.2653659">Link</a>
+          </li>
+          <li>
+            Huang, James, Maysam Shahedi, Quyen N. Do, Yin Xi, Matthew A. Lewis,
+            Christina L. Herrera, David Owen et al. "Topography-based feature
+            extraction of the human placenta from prenatal MR images." In
+            Medical Imaging 2023: Image Processing, vol. 12464, pp. 473-482.
+            SPIE, 2023. <a href="https://doi.org/10.1117/12.2653663">Link</a>
+          </li>
+          <li>
+            Huang, James, Junyu Guo, Ivan Pedrosa, and Baowei Fei. "Deep
+            learning-based deformable registration of dynamic contrast enhanced
+            MR images of the kidney." In Medical Imaging 2022: Image-Guided
+            Procedures, Robotic Interventions, and Modeling, vol. 12034, pp.
+            213-222. SPIE, 2022.
+            <a href="https://doi.org/10.1117/12.2611768">Link</a>
+          </li>
+          <li>
+            Huang, James, Martin Halicek, Maysam Shahedi, and Baowei Fei.
+            "Augmented reality visualization of hyperspectral imaging
+            classifications for image-guided brain tumor phantom resection." In
+            Medical Imaging 2020: Image-Guided Procedures, Robotic
+            Interventions, and Modeling, vol. 11315, pp. 206-215. SPIE, 2020.
+            <a href="https://doi.org/10.1117/12.2549041">Link</a>
+          </li>
+          <li>
+            Bettati, Patric, Majid Chalian, James Huang, James D. Dormer, Maysam
+            Shahedi, and Baowei Fei. "Augmented reality-assisted biopsy of soft
+            tissue lesions." In Medical Imaging 2020: Image-Guided Procedures,
+            Robotic Interventions, and Modeling, vol. 11315, pp. 222-231. SPIE,
+            2020. <a href="https://doi.org/10.1117/12.2549381">Link</a>
+          </li>
+        </ul>
+      </div>
+      <!-- End .optional-section-block -->
+
+      <h2 class="heading">Certifications</h2>
+
+      <div class="optional-section-block">
+        <ul>
+          <li>
+            Microsoft Certified: Azure Data Scientist Associate (June 2023 -
+            Present)
+            <a href="assets/Credentials - JamesHuang-7792 _ Microsoft Learn.pdf"
+              >View</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
     <!-- End .optional-section -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/mqaqqbpl">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
+      <h2>Get in Touch</h2>
+      <div id="contact-form">
+        <form method="POST" action="https://formspree.io/f/mqaqqbpl">
+          <input
+            type="hidden"
+            name="_subject"
+            value="Contact request from personal website"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2025</span> James Huang
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/jameshuang101" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/jameshuang101" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 copyright">
+            <p>
+              Copyright &copy; <span id="current-year">2025</span> James Huang
+            </p>
+          </div>
+          <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="col-sm-5 social">
+            <ul>
+              <li>
+                <a href="https://github.com/jameshuang101" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/jameshuang101"
+                  target="_blank"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
-</body>
-
+  </body>
 </html>
