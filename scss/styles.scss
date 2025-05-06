@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #370066;
+$base-color: #3498db;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -268,19 +268,6 @@ footer {
   }
 }
 
-.circular--portrait {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.circular--portrait img {
-  width: 100%;
-  height: auto;
-}
-
 .social {
   text-align: right;
 
@@ -397,18 +384,6 @@ footer {
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px;
-  }
-
-  .circular--portrait {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-  }
-  .circular--portrait img {
-    width: 100%;
-    height: auto;
   }
 }
 
