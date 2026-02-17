@@ -1,0 +1,30 @@
+name: Scheduled Empty Commit
+
+on:
+  schedule:
+    # Runs daily at midnight UTC
+    - cron: '0 0 * * *'
+  # Allows manual trigger from the Actions tab for testing
+  workflow_dispatch:
+
+jobs:
+  empty_commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to allow the workflow to commit and push
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git User
+        run: |
+          git config user.email ""
+          git config user.name "jameshuang101"
+
+      - name: Create Empty Commit
+        # The --allow-empty flag is used to create a commit without any file changes
+        run: git commit --allow-empty -m "Scheduled empty commit to keep activity"
+
+      - name: Push Empty Commit
+        # Push to the default branch (e.g., 'main'). Adjust 'main' if your branch has a different name
+        run: git push origin main
